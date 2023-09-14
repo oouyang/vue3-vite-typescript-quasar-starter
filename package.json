@@ -1,0 +1,35 @@
+{
+  "name": "vite-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.4",
+    "@types/node": "^16.6.1",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "sass": "^1.32.0",
+    "@types/to-snake-case": "^1.0.0",
+    "git-describe": "^4.1.1",
+    "prettier": "^3.0.3",
+    "to-snake-case": "^1.0.0",
+    "typescript": "^5.0.2",
+    "unplugin-icons": "^0.14.10",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.12.4",
+    "@quasar/vite-plugin": "^1.5.0",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "vue-router": "^4.2.4",
+    "quasar": "^2.5.0",
+    "vue": "^3.2.6"
+  }
+}
